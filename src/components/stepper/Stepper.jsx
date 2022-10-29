@@ -21,7 +21,7 @@ const Stepper = () => {
   const {currentStep} = useSelector(state=> state.stepper)
 
   return (
-    <div className="flex justify-between mt-10">
+    <div className="flex justify-between mt-10 px-8 py-4">
       {steps.map((item, i) => (
         <div key={item.step}>
           <div className="flex items-center">
